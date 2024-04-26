@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keybords" content="Music, album, player">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+    content="Melody is a digital music player where you can find your favorite artists and albums. Enjoy our radio based on your plays and discover new songs.">
+    <!-- Añadir color de la pestaña PENDIENTE -->
+<meta name="theme-color" content="2e2e2e">
+<meta name="lang" content="en">
+<meta name="author" content="Valeria Sarmiento">
+<!-- Icono de pagina en pestaña, PENDIENTE -->
+<!-- <link rel="shortcut icon" href="" type="">  -->
+    
+    <link rel="shortcut icon" href="/assets/logo.svg" type="image/x-icon">
+    <title>Melody</title>
+
+    <!-- Solo copiar y pegar/google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        
+        <nav class="navbar__nav">
+            <img src="/assets/logo.svg"logo que representa una frecuencia musical"
+            title="Melody" class="navbar__nav__img">
+
+            <ul class="navbar__nav__list">
+                <li><img src="/assets/home-2-svgrepo-com 1.svg" alt="">HOME</li>
+                <p> <b>LIBRARY</b> </p>
+                <li><img src="/assets/playlist.svg" alt="">PLAYLIST</li>
+                <li><img src="/assets/heart.svg" alt="">LIKED SONGS</li>
+                <li><img src="/assets/music-album-song-svgrepo-com 1.svg" alt="">ALBUMS</li>
+                <p> <b>DISCOVER</b> </p>
+                <li><img src="/assets/trending.svg" alt="">TRENDING</li>
+                <li><img src="/assets/podcast.svg" alt="">PODCAST</li>
+                <li><img src="/assets/artist.svg" alt="">ARTISTS</li>
+                <li><img src="/assets/logout.svg" alt="">LOG OUT</li>
+                <li></li>
+            </ul>
+
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+<div>
+    <input type="text" placeholder="SEARCH SONGS, ALBUMS, ARTIST">
+</div>
+
+
+        <!-- Search bar -->
+        <div></div>
+        <!-- Track-list -->
+        <div id="track-list"></div>
+
+
+
+
+        
+    </main>
+    <footer>
+        <audio src="" controls id="current-song-audio" autoplay></audio>
+
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
